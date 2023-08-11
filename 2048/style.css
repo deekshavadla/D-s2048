@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: "prehvihear",sans-serif;
+}
+body{
+    background-color:#F9E2AF;
+
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    color:#0A4D68;
+}
+.container{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;
+}
+h1{
+    font: size 4rem;
+    aLign-items:center;
+    font-family: 'preahvihear',sans-serif;
+}
+.score-container{
+    color:#0A4D68;
+    font-size: 30px;
+    font-family: 'preahvihear',sans-serif;
+}
+.grid{
+    width:25rem;
+    height:25rem;
+    background-color: #6e6f63;
+    border: 5px solid #8b8b79;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5em;
+    
+}
+.box{
+    width:97.5px;
+    height:97.5px;
+    border:5px solid #a4a49f;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover-screen{
+    position:absolute;
+    top:0;
+    left: 0;
+    background-color: #F6BA6F;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#start-button{
+    background-color:#6DA9E4 ;
+    padding: 1em 2em;
+    border:none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hide{
+    display: none;
+
+}
+.box-2{
+    background-color: #FFEBEB;
+    color:black;
+    font-family: 'preahvihear',sans-serif;
+}
+.box-4{
+    background-color: #B9EDDD;
+    color: black;
+    font-family: 'preahvihear',sans-serif;
+}
+.box-8{
+    background-color:#BFCCB5;
+    color: black;
+    font-family: 'preahvihear',sans-serif;
+}
+.box-16{
+    background-color: #EDC6B1;
+    color: black;
+    font-family: 'preahvihear',sans-serif;
+}
+.box-32{
+background-color: #BDCDD6;
+color: black;
+font-family: 'preahvihear',sans-serif;
+}
+.box-64{
+    background-color: #7C96AB;
+    color: black;
+    font-family: 'preahvihear',sans-serif;
+}
+.box-128{
+    background-color: #F9E2AF;
+    color: black;
+    font-family: 'preahvihear',sans-serif;
+}
+.box-256{
+    background-color: #00C4FF;
+    color: black;
+    font-family: 'preahvihear',sans-serif;
+}
+.box-1024{
+    background-color: #4942E4;
+    color: black;
+    font-family: 'preahvihear',sans-serif;
+}
+.box-2048{
+    background-color: #F86F03;
+    color: BLACK;
+    font-family: 'preahvihear',sans-serif;
+
+}
